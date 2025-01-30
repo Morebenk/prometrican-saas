@@ -8,34 +8,16 @@
 
   const formFields = [
     {
-      id: "first_name",
+      id: "full_name",
       label: "First Name *",
       inputType: "text",
       autocomplete: "given-name",
-    },
-    {
-      id: "last_name",
-      label: "Last Name *",
-      inputType: "text",
-      autocomplete: "family-name",
     },
     {
       id: "email",
       label: "Email *",
       inputType: "email",
       autocomplete: "email",
-    },
-    {
-      id: "phone",
-      label: "Phone Number",
-      inputType: "tel",
-      autocomplete: "tel",
-    },
-    {
-      id: "company",
-      label: "Company Name",
-      inputType: "text",
-      autocomplete: "organization",
     },
     {
       id: "message",

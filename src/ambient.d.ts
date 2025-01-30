@@ -3,8 +3,6 @@ declare global {
     errorMessage?: string
     errorFields?: string[]
     fullName?: string
-    companyName?: string
-    website?: string
     email?: string
   }
 }
