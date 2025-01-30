@@ -15,7 +15,7 @@
 		"format_check": "prettier --check --plugin prettier-plugin-svelte ./src"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-auto": "^2.1.1",
 		"@sveltejs/kit": "^1.30.4",
 		"@tailwindcss/typography": "^0.5.10",
 		"@typescript-eslint/eslint-plugin": "^6.20.0",
@@ -39,7 +39,8 @@
 	"dependencies": {
 		"@supabase/auth-helpers-sveltekit": "^0.10.2",
 		"@supabase/auth-ui-svelte": "^0.2.2",
-		"@supabase/supabase-js": "^2.33.0",
+		"@supabase/ssr": "^0.5.2",
+		"@supabase/supabase-js": "^2.48.1",
 		"stripe": "^13.3.0"
 	}
 }
