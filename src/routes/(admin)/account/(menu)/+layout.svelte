@@ -88,6 +88,26 @@
       </li>
       <li>
         <a
+          href="/account/practice"
+          class={adminSection === "practice" ? "active" : ""}
+          on:click={closeDrawer}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+          >
+            <path d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+          </svg>
+          Practice
+        </a>
+      </li>
+
+      <li>
+        <a
           href="/account/billing"
           class={adminSection === "billing" ? "active" : ""}
           on:click={closeDrawer}
